@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+#include<sys/stat.h>
+#include<sys/socket.h>
+#include<netinet/in.h>
+void main(){
+	struct sockaddr_in client,server;
+	int s,flag,n,sock,g,j,left,right;
+	char buffer[20];
+	s = socket(AF_INET,SOCK_STREAM,0);
+	client.sin_family = AF_INET;
+	client.sin_port = 2000;
+	server.sin_addr.s_addr = htons(INADDR_ANY);
+	server_addr.sin_port = hton(9145);
+	listen(s,1);
+	n = sizeof(client);
+}

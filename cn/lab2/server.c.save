@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<string.h>
+#include<sys/types.h>
+#include<sys/stat.h>
+#include<sys/socket.h>
+#include<unistd.h>
+#include<netinet/in.h>
+void main(){
+	struct sockaddr_in client_addr,server_addr;
+	int s,flag,n,sock,g,j,left,right,b1;
+	char buffer[20];
+	s = socket(AF_INET,SOCK_STREAM,0);
+	client_addr.sin_family = AF_INET;
+	client_addr.sin_port = 2000;
+	server_addr.sin_addr.s_addr = htons(INADDR_ANY);
+	server_addr.sin_port = htons(9145);
+	listen(s,1);
+	n = sizeof(client_addr);
+	sock = accept(s,(struct sockaddr *)&client_addr,&n);
+	recv(sock,b1,sizeof(b1),0);
+	printf("\nThe string received is :%s\n",b1);
+	if(strlen(b1)==0)
+		flag=1;
+	else
+		left = 0;
+		right = strlen(b1)-1;
+		flag = 1;
+		while(left<right && flag
+}
