@@ -4,4 +4,5 @@ This repository mainly contains the lab work of all the three labs(Computer Netw
 1. How to Run (CN Lab)
   We have to run client and server program separetely in 2 terminals..
   1st terminal - gcc server.c -o server ->./a.out
+  
   2nd terminal - gcc client.c -o client  -> ./a.out
