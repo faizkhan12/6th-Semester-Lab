@@ -1,3 +1,8 @@
+/*
+	Aim - To determine whether the number is even or not
+	Author - @Faiz Khan
+	To run - Termnal 1 - gcc client.c -o client
+*/
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/types.h>
