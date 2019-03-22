@@ -1,3 +1,8 @@
+*/
+    Aim - To implement chat server(chat bot) using TCP
+    Author - @Faiz Khan 
+/*
+
 #include <stdio.h>
 #include <stdlib.h>
 #include<sys/sys/types.h>
