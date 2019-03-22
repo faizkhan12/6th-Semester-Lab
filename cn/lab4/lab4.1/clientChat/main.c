@@ -1,11 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include<sys/sys/types.h>
-#include<netinet/in.h>
-#include<sys/socket.h>
-#include<unistd.h>
+*/
+    Aim - To implement chat server(chat bot) using TCP
+    Author - @Faiz Khan 
+/*
+
+#include <stdio.h>  /* standard C i/o facilities */
+#include <stdlib.h> /* needed for atoi() */
+#include<sys/types.h>   /* system data type definitions */
+#include<netinet/in.h>  /* INET constants and stuff */
+#include<sys/socket.h>  /* socket specific definitions */
+#include<unistd.h>      /* defines STDIN_FILENO, system calls,etc */
 #include<string.h>
-#include<arpa/inet.h>
+#include<arpa/inet.h>   /* IP address conversion stuff */
 void main(int argc,char *argv[])
 {
     if(argc < 3)
