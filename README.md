@@ -21,6 +21,8 @@ This repository mainly contains the lab work of all the three labs(Computer Netw
     
     ├── lab3
     
-     ├── lab4/lab4.1
+    ├── lab4/lab4.1
+     
+    ├── lab 4.2
 
 
