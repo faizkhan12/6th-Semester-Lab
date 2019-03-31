@@ -1,3 +1,8 @@
+*/
+    Aim - Impement the concept of multiple or Intermediate servers using TCP
+    Author - @Faiz Khan 
+/*
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
