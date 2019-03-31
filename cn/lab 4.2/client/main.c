@@ -1,11 +1,16 @@
-#include<stdio.h>
-#include<stdlib.h>
+*/
+    Aim - Impement the concept of multiple or Intermediate servers using TCP
+    Author - @Faiz Khan 
+/*
+#include<stdio.h>    /* standard C i/o facilities */
+#include<stdlib.h>   /* needed for atoi() */
 #include<string.h>
-#include<sys/types.h>
-#include<netinet/in.h>
-#include<unistd.h>
-#include<arpa/inet.h>
-
+#include<sys/socket.h>  /* socket specific definitions */
+#include<sys/types.h>   /* system data type definitions */
+#include<netinet/in.h>  /* INET constants and stuff */
+#include<unistd.h>      /* defines STDIN_FILENO, system calls,etc */
+#include<arpa/inet.h>   /* IP address conversion stuff */
+    
 void main(int argc, char *argv[])
 {
     if(argc < 3)
