@@ -1,6 +1,8 @@
 */
     Aim - Impement the concept of multiple or Intermediate servers using TCP
     Author - @Faiz Khan 
+/*
+
 #include<stdio.h>   /* standard C i/o facilities */
 #include<stdlib.h>   /* needed for atoi() */
 #include<string.h> 
