@@ -7,6 +7,9 @@ This repository mainly contains the lab work of all the three labs(Computer Netw
   1st terminal - gcc server.c -o server ->./a.out
   
   2nd terminal - gcc client.c -o client  -> ./a.out
+  
+# Lab 6 consists of Cisco Packet Tracer
+To view the network setup, you need to have cisco packet tracer installed in your system 
 
 
 # File Directory 
